@@ -8,4 +8,4 @@ Statische Seiten für TrickCut (Torque Soul Media), 10 Sprachen (DE/EN/ES/PT/FR/
 | `terms.html` | Nutzungsbedingungen (Zusatz zur Apple Standard EULA) | …/terms.html |
 | `support.html` | Support und FAQ | …/support.html |
 
-**Stand: Entwurf, noch nicht veröffentlicht, juristische Prüfung ausstehend.** Die App verlinkt diese Adressen (`SettingsView.Links`); sie funktionieren erst nach Veröffentlichung dieses Repositorys mit aktiviertem GitHub Pages.
+**Stand: veröffentlicht am 18.10.2026 (GitHub Pages), juristische Prüfung der Texte steht aus.** Die App verlinkt diese Adressen (`SettingsView.Links`).
