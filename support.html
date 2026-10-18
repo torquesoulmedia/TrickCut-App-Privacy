@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrickCut – Support (DE/EN/ES/PT/FR/IT/NL/PL/SV/NB)</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #111214;
+    --fg: #e8e8ea;
+    --muted: #9a9a9f;
+    --accent: #3a3a3f;
+    --pill: #1c1d20;
+    --pill-active: #e8e8ea;
+    --pill-active-fg: #111214;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .langs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1.25rem;
+  }
+  .lang-btn {
+    background: var(--pill);
+    color: var(--fg);
+    border: none;
+    border-radius: 999px;
+    padding: 0.45rem 1.1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .lang-btn.active {
+    background: var(--pill-active);
+    color: var(--pill-active-fg);
+    font-weight: 600;
+  }
+  section.doc { display: none; }
+  section.doc.active { display: block; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--fg); }
+  .email {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.6rem 1.1rem;
+    background: var(--pill);
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="langs">
+    <button class="lang-btn active" data-lang="de" onclick="showLang('de')">Deutsch</button>
+    <button class="lang-btn" data-lang="en" onclick="showLang('en')">English</button>
+    <button class="lang-btn" data-lang="es" onclick="showLang('es')">Español</button>
+    <button class="lang-btn" data-lang="pt" onclick="showLang('pt')">Português</button>
+    <button class="lang-btn" data-lang="fr" onclick="showLang('fr')">Français</button>
+    <button class="lang-btn" data-lang="it" onclick="showLang('it')">Italiano</button>
+    <button class="lang-btn" data-lang="nl" onclick="showLang('nl')">Nederlands</button>
+    <button class="lang-btn" data-lang="pl" onclick="showLang('pl')">Polski</button>
+    <button class="lang-btn" data-lang="sv" onclick="showLang('sv')">Svenska</button>
+    <button class="lang-btn" data-lang="nb" onclick="showLang('nb')">Norsk</button>
+  </div>
+
+  <section class="doc active" id="doc-de">
+    <h1>Support – TrickCut</h1>
+    <p>Fragen, Feedback oder ein Problem mit TrickCut? Schreib uns jederzeit:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Erste Schritte</h2>
+    <p><strong>Meine Sessions erscheinen nicht.</strong><br>Prüfe, ob du den richtigen Ordner gewählt hast (er muss den Unterordner „Sessions“ enthalten) und ob die Dateien-App die Ordner vollständig geladen hat. Du kannst den Ordner in der Übersicht über das Menü neu wählen.</p>
+    <p><strong>Werden meine Aufnahmen verändert?</strong><br>Nein. TrickCut liest deine Aufnahmen nur. Bearbeitungen, Musikkopien und Exporte liegen im Unterordner „Edits“ der jeweiligen Session.</p>
+    <p><strong>Wie kommen eigene Videos in TrickCut?</strong><br>Tippe in der Clip-Ansicht oben rechts auf das Import-Symbol und wähle „Aus Fotos“ oder „Aus Dateien“. Der Clip wird als Kopie in TrickCut gespeichert; dein Original bleibt unberührt. In der Vorschau des Clips kannst du die Kopie wieder löschen.</p>
+    <h2>Schnitt und Export</h2>
+    <p><strong>Wo finde ich mein exportiertes Video?</strong><br>In der Session unter „Edits/Exports“, in der Übersicht „Exportierte Edits“ und auf Wunsch in Fotos. Über „Teilen oder sichern“ sendest du es weiter.</p>
+    <p><strong>Der Export wurde unterbrochen.</strong><br>Exporte brauchen Zeit und freien Speicher. Die App meldet es, wenn ein Export abgebrochen wurde. Starte ihn dann neu; genug freier Speicher hilft.</p>
+    <h2>Musik, Plus und Beat Sync</h2>
+    <p><strong>Welche Musikdateien funktionieren?</strong><br>Dateien, die iOS abspielen kann und die nicht kopiergeschützt sind, zum Beispiel M4A, MP3 und WAV. Geschützte Downloads, etwa aus Apple Music, lassen sich nicht verwenden. Verwende nur Musik, für die du die Rechte hast.</p>
+    <p><strong>Was bietet TrickCut Plus?</strong><br>Musik und weiterer Ton auf eigenen Spuren, Beat Sync, Zusatzvideo und die Timeline-Bearbeitung. Preise siehst du in der Plus-Ansicht, in deiner Währung. Abos kündigst du in den Einstellungen deines Apple-Kontos; „Käufe wiederherstellen“ holt einen Kauf mit demselben Apple-Account zurück.</p>
+    <p><strong>Was passiert, wenn mein Abo ausläuft?</strong><br>Deine Entwürfe bleiben erhalten, sichtbar und in der Vorschau abspielbar. Bearbeiten und Exportieren von Plus-Inhalt brauchen wieder Plus. Schon exportierte Videos bleiben unberührt; der einfache Schnell-Edit und sein Export bleiben frei.</p>
+    <p><strong>Die Beats stimmen nicht.</strong><br>Die Erkennung ist eine Hilfe. Du kannst Beats am Abspielkopf setzen oder entfernen. Bei sehr ruhiger oder unrhythmischer Musik erkennt die App eventuell keine Beats.</p>
+    <p><strong>Was macht „Landung auf Beat“?</strong><br>Beim Zusatzvideo wird das Video verschoben, bei einem Clip der Hauptspur wird der Clip davor gekürzt oder verlängert, damit die Schnittkante passt. Die Musik wird dabei nie verschoben.</p>
+  </section>
+
+  <section class="doc" id="doc-en">
+    <h1>Support – TrickCut</h1>
+    <p>Questions, feedback, or a problem with TrickCut? Get in touch anytime:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Getting started</h2>
+    <p><strong>My sessions do not appear.</strong><br>Check that you chose the right folder (it must contain the subfolder “Sessions”) and that the Files app has fully loaded the folders. You can choose the folder again from the menu on the overview.</p>
+    <p><strong>Are my recordings changed?</strong><br>No. TrickCut only reads your recordings. Edits, music copies and exports are stored in the “Edits” subfolder of the respective session.</p>
+    <p><strong>How do I bring my own videos into TrickCut?</strong><br>In the clip view, tap the import symbol at the top right and choose “From Photos” or “From Files”. The clip is saved as a copy inside TrickCut; your original stays untouched. In the clip’s preview you can delete the copy again.</p>
+    <h2>Editing and export</h2>
+    <p><strong>Where do I find my exported video?</strong><br>In the session under “Edits/Exports”, in the “Exported edits” overview and, if you want, in Photos. “Share or save” sends it on.</p>
+    <p><strong>The export was interrupted.</strong><br>Exports need time and free storage. The app tells you when an export was cancelled. Then start it again; enough free storage helps.</p>
+    <h2>Music, Plus and Beat Sync</h2>
+    <p><strong>Which music files work?</strong><br>Files that iOS can play and that are not copy-protected, for example M4A, MP3 and WAV. Protected downloads, such as from Apple Music, cannot be used. Only use music you have the rights to.</p>
+    <p><strong>What does TrickCut Plus offer?</strong><br>Music and further sound on their own tracks, Beat Sync, extra video and timeline editing. You see prices in the Plus view, in your currency. You cancel subscriptions in your Apple account settings; “Restore purchases” brings back a purchase with the same Apple account.</p>
+    <p><strong>What happens when my subscription ends?</strong><br>Your drafts are kept, visible and playable in the preview. Editing and exporting Plus content needs Plus again. Videos you already exported stay untouched; the simple quick edit and its export stay free.</p>
+    <p><strong>The beats are off.</strong><br>The detection is an aid. You can set or remove beats at the playhead. With very quiet or unrhythmic music the app may not detect any beats.</p>
+    <p><strong>What does “Landing on beat” do?</strong><br>With the extra video, the video is moved; with a clip on the main track, the clip before it is shortened or extended so the cut fits. The music is never moved.</p>
+  </section>
+
+  <section class="doc" id="doc-es">
+    <h1>Support – TrickCut</h1>
+    <p>¿Preguntas, comentarios o un problema con TrickCut? Escríbenos cuando quieras:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Primeros pasos</h2>
+    <p><strong>Mis sesiones no aparecen.</strong><br>Comprueba que has elegido la carpeta correcta (debe contener la subcarpeta «Sessions») y que la app Archivos ha cargado las carpetas por completo. Puedes volver a elegir la carpeta desde el menú de la vista general.</p>
+    <p><strong>¿Se modifican mis grabaciones?</strong><br>No. TrickCut solo lee tus grabaciones. Las ediciones, las copias de música y las exportaciones se guardan en la subcarpeta «Edits» de cada sesión.</p>
+    <p><strong>¿Cómo añado mis propios vídeos a TrickCut?</strong><br>En la vista de clips, toca el símbolo de importar arriba a la derecha y elige «De Fotos» o «De Archivos». El clip se guarda como copia en TrickCut; tu original no se toca. En la vista previa del clip puedes borrar la copia de nuevo.</p>
+    <h2>Edición y exportación</h2>
+    <p><strong>¿Dónde encuentro mi vídeo exportado?</strong><br>En la sesión, en «Edits/Exports», en la vista «Ediciones exportadas» y, si quieres, en Fotos. Con «Compartir o guardar» lo envías.</p>
+    <p><strong>La exportación se interrumpió.</strong><br>Las exportaciones necesitan tiempo y espacio libre. La app avisa si se canceló una exportación. Vuelve a iniciarla; ayuda tener suficiente espacio libre.</p>
+    <h2>Música, Plus y Beat Sync</h2>
+    <p><strong>¿Qué archivos de música funcionan?</strong><br>Archivos que iOS puede reproducir y que no tienen protección contra copia, por ejemplo M4A, MP3 y WAV. Las descargas protegidas, como las de Apple Music, no se pueden usar. Usa solo música sobre la que tengas los derechos.</p>
+    <p><strong>¿Qué ofrece TrickCut Plus?</strong><br>Música y más sonido en pistas propias, Beat Sync, vídeo adicional y edición en la línea de tiempo. Los precios aparecen en la vista de Plus, en tu moneda. Los suscripciones se cancelan en los ajustes de tu cuenta de Apple; «Restaurar compras» recupera una compra con la misma cuenta de Apple.</p>
+    <p><strong>¿Qué pasa cuando termina mi suscripción?</strong><br>Tus borradores se conservan, visibles y reproducibles en la vista previa. Editar y exportar contenido de Plus vuelve a requerir Plus. Los vídeos ya exportados no se tocan; la edición rápida sencilla y su exportación siguen siendo gratuitas.</p>
+    <p><strong>Los beats no coinciden.</strong><br>La detección es una ayuda. Puedes añadir o quitar beats en la posición de reproducción. Con música muy tranquila o sin ritmo, la app puede no detectar beats.</p>
+    <p><strong>¿Qué hace «Aterrizaje en el beat»?</strong><br>En el vídeo adicional se mueve el vídeo; con un clip de la pista principal se acorta o alarga el clip anterior para que encaje el corte. La música nunca se mueve.</p>
+  </section>
+
+  <section class="doc" id="doc-pt">
+    <h1>Support – TrickCut</h1>
+    <p>Dúvidas, feedback ou um problema com o TrickCut? Fale conosco a qualquer momento:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Primeiros passos</h2>
+    <p><strong>Minhas sessões não aparecem.</strong><br>Verifique se você escolheu a pasta certa (ela precisa conter a subpasta “Sessions”) e se o app Arquivos carregou as pastas por completo. Você pode escolher a pasta de novo pelo menu da visão geral.</p>
+    <p><strong>Minhas gravações são alteradas?</strong><br>Não. O TrickCut apenas lê suas gravações. Edições, cópias de música e exportações ficam na subpasta “Edits” de cada sessão.</p>
+    <p><strong>Como trazer meus próprios vídeos para o TrickCut?</strong><br>Na visualização de clipes, toque no símbolo de importação no canto superior direito e escolha “Das Fotos” ou “Dos Arquivos”. O clipe é salvo como cópia no TrickCut; seu original permanece intacto. Na pré-visualização do clipe, você pode excluir a cópia novamente.</p>
+    <h2>Edição e exportação</h2>
+    <p><strong>Onde encontro meu vídeo exportado?</strong><br>Na sessão, em “Edits/Exports”, na visão “Edições exportadas” e, se quiser, em Fotos. Com “Compartilhar ou salvar” você o envia adiante.</p>
+    <p><strong>A exportação foi interrompida.</strong><br>As exportações precisam de tempo e espaço livre. O app avisa quando uma exportação foi cancelada. Inicie-a de novo; ter espaço livre suficiente ajuda.</p>
+    <h2>Música, Plus e Beat Sync</h2>
+    <p><strong>Quais arquivos de música funcionam?</strong><br>Arquivos que o iOS reproduz e que não têm proteção contra cópia, por exemplo M4A, MP3 e WAV. Downloads protegidos, como os do Apple Music, não podem ser usados. Use apenas músicas sobre as quais você tenha os direitos.</p>
+    <p><strong>O que o TrickCut Plus oferece?</strong><br>Música e outro som em faixas próprias, Beat Sync, vídeo adicional e edição na linha do tempo. Os preços aparecem na tela do Plus, na sua moeda. Assinaturas são canceladas nos ajustes da sua conta Apple; “Restaurar compras” recupera uma compra com a mesma conta Apple.</p>
+    <p><strong>O que acontece quando minha assinatura termina?</strong><br>Seus rascunhos são mantidos, visíveis e reproduzíveis na pré-visualização. Editar e exportar conteúdo Plus exige o Plus novamente. Vídeos já exportados permanecem intactos; a edição rápida simples e sua exportação continuam gratuitas.</p>
+    <p><strong>Os beats não batem.</strong><br>A detecção é uma ajuda. Você pode adicionar ou remover beats na posição de reprodução. Com música muito calma ou sem ritmo, o app pode não detectar beats.</p>
+    <p><strong>O que faz “Aterrissagem no beat”?</strong><br>No vídeo adicional, o vídeo é movido; em um clipe da faixa principal, o clipe anterior é encurtado ou estendido para o corte encaixar. A música nunca é movida.</p>
+  </section>
+
+  <section class="doc" id="doc-fr">
+    <h1>Support – TrickCut</h1>
+    <p>Des questions, des retours ou un problème avec TrickCut&nbsp;? Contactez-nous à tout moment&nbsp;:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Premiers pas</h2>
+    <p><strong>Mes sessions n’apparaissent pas.</strong><br>Vérifie que tu as choisi le bon dossier (il doit contenir le sous-dossier « Sessions ») et que l’app Fichiers a entièrement chargé les dossiers. Tu peux choisir à nouveau le dossier depuis le menu de l’aperçu.</p>
+    <p><strong>Mes enregistrements sont-ils modifiés ?</strong><br>Non. TrickCut ne fait que lire tes enregistrements. Les montages, les copies de musique et les exports se trouvent dans le sous-dossier « Edits » de chaque session.</p>
+    <p><strong>Comment ajouter mes propres vidéos dans TrickCut ?</strong><br>Dans la vue des clips, touche le symbole d’import en haut à droite et choisis « Depuis Photos » ou « Depuis Fichiers ». Le clip est enregistré comme copie dans TrickCut ; ton original reste intact. Dans l’aperçu du clip, tu peux de nouveau effacer la copie.</p>
+    <h2>Montage et export</h2>
+    <p><strong>Où trouver ma vidéo exportée ?</strong><br>Dans la session sous « Edits/Exports », dans l’aperçu « Montages exportés » et, si tu veux, dans Photos. Avec « Partager ou enregistrer », tu l’envoies.</p>
+    <p><strong>L’export a été interrompu.</strong><br>Les exports demandent du temps et de l’espace libre. L’app te prévient quand un export a été annulé. Relance-le ; avoir assez d’espace libre aide.</p>
+    <h2>Musique, Plus et Beat Sync</h2>
+    <p><strong>Quels fichiers de musique fonctionnent ?</strong><br>Les fichiers que iOS sait lire et qui ne sont pas protégés contre la copie, par exemple M4A, MP3 et WAV. Les téléchargements protégés, par exemple d’Apple Music, ne peuvent pas être utilisés. N’utilise que de la musique dont tu détiens les droits.</p>
+    <p><strong>Que propose TrickCut Plus ?</strong><br>Musique et autre son sur des pistes dédiées, Beat Sync, vidéo supplémentaire et montage sur la timeline. Les prix s’affichent dans la vue Plus, dans ta devise. Tu résilies les abonnements dans les réglages de ton compte Apple ; « Restaurer les achats » récupère un achat avec le même compte Apple.</p>
+    <p><strong>Que se passe-t-il quand mon abonnement se termine ?</strong><br>Tes brouillons sont conservés, visibles et lisibles dans l’aperçu. Modifier et exporter du contenu Plus nécessite de nouveau Plus. Les vidéos déjà exportées restent intactes ; le montage rapide simple et son export restent gratuits.</p>
+    <p><strong>Les beats ne correspondent pas.</strong><br>La détection est une aide. Tu peux placer ou retirer des beats à la tête de lecture. Avec une musique très calme ou sans rythme, l’app peut ne détecter aucun beat.</p>
+    <p><strong>Que fait « Réception sur le beat » ?</strong><br>Avec la vidéo supplémentaire, la vidéo est déplacée ; avec un clip de la piste principale, le clip précédent est raccourci ou allongé pour que la coupe tombe juste. La musique n’est jamais déplacée.</p>
+  </section>
+
+  <section class="doc" id="doc-it">
+    <h1>Support – TrickCut</h1>
+    <p>Domande, feedback o un problema con TrickCut? Scrivici in qualsiasi momento:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Primi passi</h2>
+    <p><strong>Le mie sessioni non compaiono.</strong><br>Controlla di aver scelto la cartella giusta (deve contenere la sottocartella «Sessions») e che l’app File abbia caricato completamente le cartelle. Puoi scegliere di nuovo la cartella dal menu della panoramica.</p>
+    <p><strong>Le mie registrazioni vengono modificate?</strong><br>No. TrickCut legge soltanto le tue registrazioni. Edit, copie della musica ed esportazioni si trovano nella sottocartella «Edits» di ogni sessione.</p>
+    <p><strong>Come porto i miei video in TrickCut?</strong><br>Nella vista dei clip tocca il simbolo di importazione in alto a destra e scegli «Da Foto» o «Da File». Il clip viene salvato come copia in TrickCut; l’originale resta intatto. Nell’anteprima del clip puoi eliminare di nuovo la copia.</p>
+    <h2>Montaggio ed esportazione</h2>
+    <p><strong>Dove trovo il mio video esportato?</strong><br>Nella sessione in «Edits/Exports», nella panoramica «Edit esportati» e, se vuoi, in Foto. Con «Condividi o salva» lo invii.</p>
+    <p><strong>L’esportazione è stata interrotta.</strong><br>Le esportazioni richiedono tempo e spazio libero. L’app segnala quando un’esportazione è stata annullata. Riavviala; avere abbastanza spazio libero aiuta.</p>
+    <h2>Musica, Plus e Beat Sync</h2>
+    <p><strong>Quali file musicali funzionano?</strong><br>I file che iOS può riprodurre e che non sono protetti da copia, per esempio M4A, MP3 e WAV. I download protetti, per esempio da Apple Music, non si possono usare. Usa solo musica di cui hai i diritti.</p>
+    <p><strong>Cosa offre TrickCut Plus?</strong><br>Musica e altro audio su tracce dedicate, Beat Sync, video aggiuntivo e montaggio sulla timeline. I prezzi si vedono nella vista Plus, nella tua valuta. Gli abbonamenti si annullano nelle impostazioni del tuo account Apple; «Ripristina acquisti» recupera un acquisto con lo stesso account Apple.</p>
+    <p><strong>Cosa succede quando il mio abbonamento scade?</strong><br>Le tue bozze restano, visibili e riproducibili nell’anteprima. Modificare ed esportare contenuti Plus richiede di nuovo Plus. I video già esportati restano intatti; il semplice edit rapido e la sua esportazione restano gratuiti.</p>
+    <p><strong>I beat non coincidono.</strong><br>Il rilevamento è un aiuto. Puoi aggiungere o rimuovere beat sulla posizione di riproduzione. Con musica molto tranquilla o senza ritmo, l’app potrebbe non rilevare beat.</p>
+    <p><strong>Cosa fa «Atterraggio sul beat»?</strong><br>Con il video aggiuntivo viene spostato il video; con un clip della traccia principale viene accorciato o allungato il clip precedente perché il taglio coincida. La musica non viene mai spostata.</p>
+  </section>
+
+  <section class="doc" id="doc-nl">
+    <h1>Support – TrickCut</h1>
+    <p>Vragen, feedback of een probleem met TrickCut? Neem gerust contact op:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Aan de slag</h2>
+    <p><strong>Mijn sessies verschijnen niet.</strong><br>Controleer of je de juiste map hebt gekozen (die moet de submap “Sessions” bevatten) en of de Bestanden-app de mappen volledig heeft geladen. Je kunt de map opnieuw kiezen via het menu in het overzicht.</p>
+    <p><strong>Worden mijn opnamen gewijzigd?</strong><br>Nee. TrickCut leest je opnamen alleen. Edits, muziekkopieën en exports staan in de submap “Edits” van de betreffende sessie.</p>
+    <p><strong>Hoe haal ik mijn eigen video's in TrickCut?</strong><br>Tik in de clipweergave rechtsboven op het importsymbool en kies “Uit Foto's” of “Uit Bestanden”. De clip wordt als kopie in TrickCut bewaard; je origineel blijft ongewijzigd. In de voorvertoning van de clip kun je de kopie weer wissen.</p>
+    <h2>Bewerken en exporteren</h2>
+    <p><strong>Waar vind ik mijn geëxporteerde video?</strong><br>In de sessie onder “Edits/Exports”, in het overzicht “Geëxporteerde edits” en op wens in Foto's. Via “Delen of bewaren” stuur je hem door.</p>
+    <p><strong>De export is onderbroken.</strong><br>Exports kosten tijd en vrije opslagruimte. De app meldt het als een export is afgebroken. Start hem dan opnieuw; genoeg vrije ruimte helpt.</p>
+    <h2>Muziek, Plus en Beat Sync</h2>
+    <p><strong>Welke muziekbestanden werken?</strong><br>Bestanden die iOS kan afspelen en die niet kopieerbeveiligd zijn, bijvoorbeeld M4A, MP3 en WAV. Beveiligde downloads, bijvoorbeeld uit Apple Music, zijn niet te gebruiken. Gebruik alleen muziek waarvoor je de rechten hebt.</p>
+    <p><strong>Wat biedt TrickCut Plus?</strong><br>Muziek en ander geluid op eigen sporen, Beat Sync, extra video en bewerken op de tijdlijn. Prijzen zie je in de Plus-weergave, in jouw valuta. Abonnementen zeg je op in de instellingen van je Apple-account; “Aankopen herstellen” haalt een aankoop met hetzelfde Apple-account terug.</p>
+    <p><strong>Wat gebeurt er als mijn abonnement afloopt?</strong><br>Je concepten blijven bewaard, zichtbaar en afspeelbaar in de voorvertoning. Bewerken en exporteren van Plus-inhoud vraagt weer om Plus. Al geëxporteerde video's blijven ongewijzigd; de eenvoudige snelle edit en de export ervan blijven gratis.</p>
+    <p><strong>De beats kloppen niet.</strong><br>De herkenning is een hulpmiddel. Je kunt beats op de afspeelpositie zetten of verwijderen. Bij zeer rustige of ritmeloze muziek herkent de app mogelijk geen beats.</p>
+    <p><strong>Wat doet “Landing op beat”?</strong><br>Bij de extra video wordt de video verschoven; bij een clip op het hoofdspoor wordt de clip ervoor ingekort of verlengd zodat de knip past. De muziek wordt nooit verschoven.</p>
+  </section>
+
+  <section class="doc" id="doc-pl">
+    <h1>Support – TrickCut</h1>
+    <p>Masz pytania, opinię lub problem z TrickCut? Napisz do nas w dowolnym momencie:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Pierwsze kroki</h2>
+    <p><strong>Moje sesje się nie pojawiają.</strong><br>Sprawdź, czy wybrano właściwy folder (musi zawierać podfolder „Sessions”) i czy aplikacja Pliki w pełni wczytała foldery. Folder możesz wybrać ponownie z menu w widoku głównym.</p>
+    <p><strong>Czy moje nagrania są zmieniane?</strong><br>Nie. TrickCut tylko odczytuje Twoje nagrania. Edycje, kopie muzyki i eksporty znajdują się w podfolderze „Edits” danej sesji.</p>
+    <p><strong>Jak dodać własne filmy do TrickCut?</strong><br>W widoku klipów dotknij symbolu importu w prawym górnym rogu i wybierz „Ze Zdjęć” lub „Z Plików”. Klip zostanie zapisany jako kopia w TrickCut; oryginał pozostaje nietknięty. W podglądzie klipu możesz ponownie skasować kopię.</p>
+    <h2>Edycja i eksport</h2>
+    <p><strong>Gdzie znajdę wyeksportowany film?</strong><br>W sesji w „Edits/Exports”, w widoku „Wyeksportowane edycje” i na życzenie w Zdjęciach. „Udostępnij lub zapisz” wysyła go dalej.</p>
+    <p><strong>Eksport został przerwany.</strong><br>Eksport wymaga czasu i wolnego miejsca. Aplikacja informuje, gdy eksport został przerwany. Uruchom go ponownie; pomaga wystarczająca ilość wolnego miejsca.</p>
+    <h2>Muzyka, Plus i Beat Sync</h2>
+    <p><strong>Jakie pliki muzyczne działają?</strong><br>Pliki, które iOS potrafi odtworzyć i które nie są chronione przed kopiowaniem, np. M4A, MP3 i WAV. Chronionych pobrań, np. z Apple Music, nie można używać. Używaj tylko muzyki, do której masz prawa.</p>
+    <p><strong>Co oferuje TrickCut Plus?</strong><br>Muzyka i dodatkowy dźwięk na osobnych ścieżkach, Beat Sync, dodatkowe wideo i edycja na osi czasu. Ceny zobaczysz w widoku Plus, w Twojej walucie. Subskrypcje anulujesz w ustawieniach konta Apple; „Przywróć zakupy” odzyskuje zakup na tym samym koncie Apple.</p>
+    <p><strong>Co się stanie, gdy subskrypcja wygaśnie?</strong><br>Twoje wersje robocze zostają, są widoczne i można je odtwarzać w podglądzie. Edycja i eksport treści Plus znów wymagają Plus. Już wyeksportowane filmy pozostają nietknięte; prosta szybka edycja i jej eksport pozostają bezpłatne.</p>
+    <p><strong>Uderzenia się nie zgadzają.</strong><br>Wykrywanie jest pomocą. Możesz dodawać lub usuwać uderzenia w pozycji odtwarzania. Przy bardzo spokojnej lub niemiarowej muzyce aplikacja może nie wykryć uderzeń.</p>
+    <p><strong>Co robi „Lądowanie na uderzeniu”?</strong><br>Przy dodatkowym wideo przesuwane jest wideo; przy klipie ścieżki głównej skracany lub wydłużany jest poprzedni klip, aby cięcie pasowało. Muzyka nigdy nie jest przesuwana.</p>
+  </section>
+
+  <section class="doc" id="doc-sv">
+    <h1>Support – TrickCut</h1>
+    <p>Frågor, feedback eller ett problem med TrickCut? Hör av dig när som helst:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Kom igång</h2>
+    <p><strong>Mina sessioner visas inte.</strong><br>Kontrollera att du valt rätt mapp (den måste innehålla undermappen ”Sessions”) och att Filer-appen laddat mapparna helt. Du kan välja mappen igen via menyn i översikten.</p>
+    <p><strong>Ändras mina inspelningar?</strong><br>Nej. TrickCut läser bara dina inspelningar. Redigeringar, musikkopior och exporter ligger i undermappen ”Edits” i respektive session.</p>
+    <p><strong>Hur får jag in egna videor i TrickCut?</strong><br>Tryck i klippvyn på importsymbolen uppe till höger och välj ”Från Bilder” eller ”Från Filer”. Klippet sparas som kopia i TrickCut; din original rörs inte. I klippets förhandsvisning kan du radera kopian igen.</p>
+    <h2>Redigering och export</h2>
+    <p><strong>Var hittar jag min exporterade video?</strong><br>I sessionen under ”Edits/Exports”, i översikten ”Exporterade redigeringar” och vid önskemål i Bilder. Med ”Dela eller spara” skickar du den vidare.</p>
+    <p><strong>Exporten avbröts.</strong><br>Exporter tar tid och kräver ledigt utrymme. Appen meddelar när en export avbrutits. Starta om den; tillräckligt med ledigt utrymme hjälper.</p>
+    <h2>Musik, Plus och Beat Sync</h2>
+    <p><strong>Vilka musikfiler fungerar?</strong><br>Filer som iOS kan spela upp och som inte är kopieringsskyddade, till exempel M4A, MP3 och WAV. Skyddade nedladdningar, till exempel från Apple Music, kan inte användas. Använd bara musik som du har rättigheterna till.</p>
+    <p><strong>Vad erbjuder TrickCut Plus?</strong><br>Musik och annat ljud på egna spår, Beat Sync, extra video och redigering på tidslinjen. Priser ser du i Plus-vyn, i din valuta. Prenumerationer avslutar du i inställningarna för ditt Apple-konto; ”Återställ köp” hämtar tillbaka ett köp med samma Apple-konto.</p>
+    <p><strong>Vad händer när min prenumeration löper ut?</strong><br>Dina utkast finns kvar, syns och kan spelas upp i förhandsvisningen. Redigering och export av Plus-innehåll kräver Plus igen. Redan exporterade videor rörs inte; den enkla snabbredigeringen och dess export förblir gratis.</p>
+    <p><strong>Slagen stämmer inte.</strong><br>Igenkänningen är ett hjälpmedel. Du kan sätta eller ta bort slag vid uppspelningspositionen. Vid mycket lugn eller orytmisk musik hittar appen kanske inga slag.</p>
+    <p><strong>Vad gör ”Landning på slag”?</strong><br>Vid extra video flyttas videon; vid ett klipp på huvudspåret kortas eller förlängs klippet före, så att klippet passar. Musiken flyttas aldrig.</p>
+  </section>
+
+  <section class="doc" id="doc-nb">
+    <h1>Support – TrickCut</h1>
+    <p>Spørsmål, tilbakemeldinger eller et problem med TrickCut? Ta kontakt når som helst:</p>
+    <a class="email" href="mailto:trickcam.app@icloud.com">trickcam.app@icloud.com</a>
+    <h2>Kom i gang</h2>
+    <p><strong>Øktene mine vises ikke.</strong><br>Kontroller at du har valgt riktig mappe (den må inneholde undermappen «Sessions») og at Filer-appen har lastet mappene helt. Du kan velge mappen på nytt fra menyen i oversikten.</p>
+    <p><strong>Endres opptakene mine?</strong><br>Nei. TrickCut leser bare opptakene dine. Redigeringer, musikkopier og eksporter ligger i undermappen «Edits» i hver økt.</p>
+    <p><strong>Hvordan får jeg inn egne videoer i TrickCut?</strong><br>Trykk på importsymbolet øverst til høyre i klippvisningen og velg «Fra Bilder» eller «Fra Filer». Klippet lagres som kopi i TrickCut; originalen din berøres ikke. I forhåndsvisningen av klippet kan du slette kopien igjen.</p>
+    <h2>Redigering og eksport</h2>
+    <p><strong>Hvor finner jeg den eksporterte videoen?</strong><br>I økten under «Edits/Exports», i oversikten «Eksporterte redigeringer» og ved ønske i Bilder. Med «Del eller lagre» sender du den videre.</p>
+    <p><strong>Eksporten ble avbrutt.</strong><br>Eksport tar tid og krever ledig plass. Appen melder fra når en eksport ble avbrutt. Start den på nytt; nok ledig plass hjelper.</p>
+    <h2>Musikk, Plus og Beat Sync</h2>
+    <p><strong>Hvilke musikkfiler fungerer?</strong><br>Filer som iOS kan spille av og som ikke er kopibeskyttet, for eksempel M4A, MP3 og WAV. Beskyttede nedlastinger, for eksempel fra Apple Music, kan ikke brukes. Bruk bare musikk du har rettighetene til.</p>
+    <p><strong>Hva tilbyr TrickCut Plus?</strong><br>Musikk og annen lyd på egne spor, Beat Sync, ekstra video og redigering på tidslinjen. Prisene ser du i Plus-visningen, i din valuta. Abonnement sier du opp i innstillingene for Apple-kontoen din; «Gjenopprett kjøp» henter tilbake et kjøp med samme Apple-konto.</p>
+    <p><strong>Hva skjer når abonnementet mitt utløper?</strong><br>Utkastene dine blir værende, synlige og kan spilles av i forhåndsvisningen. Redigering og eksport av Plus-innhold krever Plus igjen. Allerede eksporterte videoer berøres ikke; den enkle hurtigredigeringen og eksporten av den forblir gratis.</p>
+    <p><strong>Slagene stemmer ikke.</strong><br>Gjenkjenningen er en hjelp. Du kan sette eller fjerne slag ved avspillingsposisjonen. Ved veldig rolig eller urytmisk musikk finner appen kanskje ingen slag.</p>
+    <p><strong>Hva gjør «Landing på slag»?</strong><br>Ved ekstra video flyttes videoen; ved et klipp på hovedsporet forkortes eller forlenges klippet før, slik at snittet passer. Musikken flyttes aldri.</p>
+  </section>
+
+</div>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('section.doc').forEach(function (el) {
+      el.classList.remove('active');
+    });
+    document.getElementById('doc-' + lang).classList.add('active');
+    document.querySelectorAll('.lang-btn').forEach(function (btn) {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
